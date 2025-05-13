@@ -34,4 +34,5 @@ class Jugador(Personajes):
         Comandos.detectar_comando(self)
         self.movimiento_jugador()
         pantalla.blit(self.image, self.rect)
+        print(self.rect.x)
         

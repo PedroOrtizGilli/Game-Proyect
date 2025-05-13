@@ -7,7 +7,7 @@ pygame.init()
 pantalla = pygame.display.set_mode((1024,768))
 pygame.display.set_caption("Mi primer juego")
 
-mi_personaje = Jugador(10,2,5,0,"proyectil",12,(100,100),pygame.Surface((64, 64)),"pincel","paleta",10)
+mi_personaje = Jugador(10,5,5,0,"proyectil",12,(100,100),pygame.Surface((64, 64)),"pincel","paleta",10)
 
 corriendo = True
 while corriendo:
